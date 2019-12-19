@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2019-12-03T16:45:50.193">
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\main\java\Library.java">
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" class="Library" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" class="Library" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="7" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" class="Library" method="someLibraryMethod" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\main\java\PrimaAnualV3\Library.java">
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="PrimaAnualV3" class="Library" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="6" endline="10" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="PrimaAnualV3" class="Library" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="7" endline="9" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="PrimaAnualV3" class="Library" method="someLibraryMethod" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\main\java\PrimaAnualV3\PRIMAv3.java">
+<violation beginline="14" endline="137" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="14" endline="137" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'PRIMAv3' has a Cyclomatic Complexity of 5 (Highest = 11).
+</violation>
+<violation beginline="17" endline="17" begincolumn="1" endcolumn="3" rule="CommentSize" ruleset="Comments" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="primaV3" variable="num" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'num' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="43" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" variable="edad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'edad' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="51" begincolumn="19" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'calculoFactorEdad' has a Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="40" endline="40" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoFactorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="54" endline="54" begincolumn="1" endcolumn="3" rule="CommentSize" ruleset="Comments" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="60" endline="60" begincolumn="40" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" variable="factorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'factorEdad' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="58" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" variable="puntos" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'puntos' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="80" begincolumn="19" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'calculoReduccion' has a Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="62" endline="62" begincolumn="13" endcolumn="22" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="65" endline="65" begincolumn="13" endcolumn="22" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="68" endline="68" begincolumn="13" endcolumn="23" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="71" endline="71" begincolumn="13" endcolumn="23" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="74" endline="74" begincolumn="13" endcolumn="23" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="calculoReduccion" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="83" endline="83" begincolumn="1" endcolumn="3" rule="CommentSize" ruleset="Comments" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="89" endline="89" begincolumn="55" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="validationInteger" variable="limitInf" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'limitInf' is not assigned and could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="69" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="validationInteger" variable="limitSup" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'limitSup' is not assigned and could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="validationInteger" variable="param" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'param' is not assigned and could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="9" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="validationInteger" variable="scanner" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'scanner' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="16" endcolumn="35" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="PrimaAnualV3" class="PRIMAv3" method="validationInteger" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="110" endline="110" begincolumn="1" endcolumn="3" rule="CommentSize" ruleset="Comments" package="PrimaAnualV3" class="PRIMAv3" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="116" endline="116" begincolumn="46" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="parse" variable="limitInf" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'limitInf' is not assigned and could be declared final
+</violation>
+<violation beginline="116" endline="116" begincolumn="60" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="parse" variable="limitSup" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'limitSup' is not assigned and could be declared final
+</violation>
+<violation beginline="116" endline="116" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="parse" variable="text" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'text' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="11" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="parse" variable="num" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'num' could be declared final
+</violation>
+<violation beginline="119" endline="119" begincolumn="11" endcolumn="55" rule="OnlyOneReturn" ruleset="Controversial" package="PrimaAnualV3" class="PRIMAv3" method="parse" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="119" endline="119" begincolumn="20" endcolumn="53" rule="UselessParentheses" ruleset="Unnecessary" package="PrimaAnualV3" class="PRIMAv3" method="parse" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="129" endline="129" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="130" endline="130" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="main" variable="edad" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'edad' could be declared final
+</violation>
+<violation beginline="131" endline="131" begincolumn="9" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="PrimaAnualV3" class="PRIMAv3" method="main" variable="puntos" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'puntos' could be declared final
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimaAnualV3.PRIMAv3Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-03T21:31:50" hostname="GGIECSOFWRK157" time="0.005">
+  <properties/>
+  <testcase name="testPrima1" classname="PrimaAnualV3.PRIMAv3Test" time="0.005"/>
+  <testcase name="testPrima2" classname="PrimaAnualV3.PRIMAv3Test" time="0.0"/>
+  <system-out><![CDATA[calcularPrima
+calcularPrima
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

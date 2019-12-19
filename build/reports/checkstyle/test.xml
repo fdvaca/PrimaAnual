@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\test\java\LibraryTest.java">
+<error line="5" severity="error" message="Usar la importación con &apos;.*&apos; debería evitarse - org.junit.Assert.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="7" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\test\java\PrimaAnualV3\LibraryTest.java">
+<error line="4" column="9" severity="error" message="El nombre &apos;PrimaAnualV3&apos; debe coincidir con el patrón &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="error" message="Usar la importación con &apos;.*&apos; debería evitarse - org.junit.Assert.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="C:\Users\CltControl\eclipse-workspace\PrimaAnual\src\test\java\PrimaAnualV3\PRIMAv3Test.java">
+<error line="1" column="9" severity="error" message="El nombre &apos;PrimaAnualV3&apos; debe coincidir con el patrón &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="error" message="Usar la importación con &apos;.*&apos; debería evitarse - org.junit.Assert.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="error" message="Orden incorrecto para el import &apos;org.junit.Test&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="1" severity="error" message="Archivo contiene caracteres de tabulación (este es el primer ejemplo)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="15" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="24" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="26" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="36" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="38" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="46" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="54" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="56" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="58" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="58" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="64" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="66" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="68" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="68" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="74" severity="error" message="La línea coincide con el patrón ilegal &apos;System\.out\.println&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="76" column="29" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="78" column="29" severity="error" message="&apos;=&apos; no está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="78" column="30" severity="error" message="&apos;=&apos; no está seguido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>
